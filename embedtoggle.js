@@ -1,4 +1,4 @@
-
+$('head').append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.1/embedtoggle.css">');
             // Get the modal
 var modal = document.getElementById("myModal");
 
