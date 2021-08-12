@@ -8,7 +8,7 @@
       
         link.type = 'text/css';
       
-        link.href = 'https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.3/embedtoggle.css'; 
+        link.href = 'https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.5/embedtoggle.css'; 
   
         // Get HTML head element to append 
         // link element to it 
