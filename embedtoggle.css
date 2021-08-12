@@ -43,3 +43,11 @@
         text-decoration: none;
         cursor: pointer;
       }
+#myBtn {
+    padding: 1em;
+    font-weight: 600;
+    background: #006ea0;
+    color: #fff;
+    border: none;
+    font-size: 0.8em;
+}
