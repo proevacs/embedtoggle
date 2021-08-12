@@ -1,18 +1,7 @@
+
+          
 $('head').append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.1/embedtoggle.css">');
-var linkLoader = function (param) {
-        var headID = document.getElementsByTagName('head')[0];
-        var link = document.createElement('link');
-        link.type = 'text/css';
-        link.rel = 'stylesheet';
-
-        //link.href = 'http://fonts.googleapis.com/css?family=Oswald&effect=neon';
-        headID.appendChild(link);
-
-        link.href = 'http://fonts.googleapis.com/css?family=' + param.family + '&effect=' + param.effect;
-
-
-    };
-            // Get the modal
+  // Get the modal
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
