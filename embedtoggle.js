@@ -2,6 +2,7 @@
           
 $('head').append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.1/embed_slide_up.css">');
 $('head').append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.1/embedtoggle.css">');
+console.log("test);
   // Get the modal
 var modal = document.getElementById("myModal");
 
