@@ -17,7 +17,7 @@
         // Get HTML head element to append 
         // link element to it 
         document.getElementsByTagName('HEAD')[0].appendChild(link); 
-          document.getElementsByTagName('HEAD')[1].appendChild(linkTwo);
+          document.getElementsByTagName('HEAD')[0].appendChild(linkTwo);
   // Get the modal
 var modal = document.getElementById("myModal");
 
