@@ -1,0 +1,53 @@
+#wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  .modal {
+    width: 200px;
+    height: 200px;
+    /*background-color: #2abd89;*/
+    /* animation: fadeIn 1s, slideIn .8s linear; */
+    
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #999;
+  }
+  .modal-content {
+    /*background-color: #fefefe;*/
+    margin: 15% auto;  
+    padding: 20px;
+    border: 1px solid #888;
+    animation: fadeIn 1s, slideIn .8s linear;
+    width: 80%; 
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateY(400px);
+      animation-timing-function: ease-out;
+    }
+    60% {
+      transform: translateY(-30px);
+      animation-timing-function: ease-in;
+    }
+    80% {
+      transform: translateY(10px);
+      animation-timing-function: ease-out;
+    }
+    100% {
+      transform: translateY(0px);
+      animation-timing-function: ease-in;
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
