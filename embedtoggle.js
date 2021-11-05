@@ -1,22 +1,22 @@
 
           
  // Create new link Element
-        var link = document.createElement('link'); 
+         
         var linkTwo = document.createElement('link');
   
         // set the attributes for link element
-           link.rel = 'stylesheet';
+           
            linkTwo.rel= 'stylesheet';
       
-        link.type = 'text/css';
+        
         linkTwo.type = 'text/css';
       
-        link.href = 'https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.5/embedtoggle.css'; 
+        
         linkTwo.href = 'https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.5/embed_slide_up.css';
   
         // Get HTML head element to append 
         // link element to it 
-        document.getElementsByTagName('HEAD')[0].appendChild(link); 
+        
           document.getElementsByTagName('HEAD')[0].appendChild(linkTwo);
   // Get the modal
 var modal = document.getElementById("myModal");
