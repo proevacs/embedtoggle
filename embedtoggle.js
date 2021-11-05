@@ -11,7 +11,7 @@
         link.type = 'text/css';
         linkTwo.type = 'text/css';
       
-        ink.href = 'https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.5/embedtoggle.css'; 
+        link.href = 'https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.5/embedtoggle.css'; 
         linkTwo.href = 'https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.9/embed_slide_up.css';
   
         // Get HTML head element to append 
