@@ -12,7 +12,7 @@
         linkTwo.type = 'text/css';
       
         link.href = 'https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.1/embedtoggle.css'; 
-        linkTwo.href = 'https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.9/embed_slide_up.css';
+        linkTwo.href = 'https://cdn.jsdelivr.net/gh/proevacs/embedtoggle@v1.14/embed_slide_up.css';
   
         // Get HTML head element to append 
         // link element to it 
