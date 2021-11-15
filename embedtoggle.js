@@ -19,7 +19,7 @@
           document.getElementsByTagName('HEAD')[0].appendChild(link); 
           document.getElementsByTagName('HEAD')[0].appendChild(linkTwo);
   // Get the modal
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("embedModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
